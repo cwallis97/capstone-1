@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        #passwords {
+            margin-top: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CODE CAVE</title>
+</head>
+<body>
+    <header>
+        <p id="site-title">Code Cave</p>
+    </header>
+    <section>
+        <div>
+            <form id="passwordForm">
+                <label for="passwordInput">Password:</label>
+                <input type="password" id="passwordInput" placeholder="Enter password">
+                <button type="button" id="passwordFormBtn">Save Password</button>
+            </form>
+        </div>
+        <div>
+            <form id="usernameForm">
+                <label for="usernameInput">Username:</label>
+                <input type="text" id="usernameInput" placeholder="Enter username">
+                <button type="button" id="usernameFormBtn">Save Username</button>
+            </form>
+        </div>
+        <div>
+            <form id="notesForm">
+                <label for="notesInput">Notes:</label>
+                <textarea id="notesInput" rows="5" placeholder="Enter notes"></textarea>
+                <button type="button" id="notesFormBtn">Save Notes</button>
+            </form>
+        </div>
+        <div id="passwords"></div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

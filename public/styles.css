@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFE8D6;
+    color: #6B705C;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+#site-title {
+    margin: 0;
+    color: #6B705C; /* Change the title color to green */
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    background-color: #DDBEA9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+label {
+    color: #6B705C;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #A5A58D;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #B7B7A4;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A5A58D;
+}
+
+#passwords {
+    margin-top: 20px;
+}
+
+p {
+    background-color: #B7B7A4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
